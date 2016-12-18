@@ -89,7 +89,7 @@ extern "C" {
 0x21 Role Change Not Allowed
 */
 #define BLE_HCI_STATUS_CODE_LMP_RESPONSE_TIMEOUT       0x22       /**< LMP Response Timeout. */
-/*0x23 LMP Error Transaction Collision*/
+#define BLE_HCI_STATUS_CODE_LMP_ERROR_TRANSACTION_COLLISION 0x23  /**< LMP Error Transaction Collision/LL Procedure Collision. */
 #define BLE_HCI_STATUS_CODE_LMP_PDU_NOT_ALLOWED        0x24       /**< LMP PDU Not Allowed. */
 /*0x25 Encryption Mode Not Acceptable
 0x26 Link Key Can Not be Changed
